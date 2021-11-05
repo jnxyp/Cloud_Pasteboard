@@ -10,6 +10,6 @@ A pasteboard API for store and retrieve texts
 |/p|GET|?k=key to retrieve that text|text you saved|
 
 ## Note
-- key is a 6 character string
+- key is a 6 character string, contains capital English letters (A-Z) and digits (0-9)
 - the max number of text stored in server is 1000, when overflow, the earlist text saved will be deleted
 - the max length of text stored in server is 10000
